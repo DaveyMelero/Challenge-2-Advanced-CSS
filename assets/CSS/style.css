@@ -1,0 +1,117 @@
+
+
+* body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+}
+header {
+    padding-top:5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 5px solid rgb(128, 111, 0);
+    background-color: rgb(128, 111, 0);
+   
+
+}
+h1 {
+    font-size: 30px;
+    color: white;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+   
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+header nav ul li:hover{
+transform:scale(1.5);
+}
+
+
+.img {
+content:"";
+height: 600px;
+width: 100%;
+display: flex;
+background: url(../images/los\ angeles\ city.jpeg) no-repeat center center/cover; 
+
+}
+ .parag {
+width: 550px;
+height: 200px;
+
+}
+
+h2{
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    border: 5px solid rgb(128, 111, 0);
+    background-color: rgb(128, 111, 0);
+    color: white;
+   
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+   display: flex;
+  justify-content: center;
+  border: 5px solid rgb(128, 111, 0);
+  background-color: rgb(128, 111, 0);
+  color: white;
+  
+
+}
+ 
+.picture{
+    justify-content: space-around;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+
+
+
+}
+
+img {
+    width: 250px;
+    
+    border-radius: 15px;
+
+}
+
+h4{
+    font-size: 25px;
+   display: flex;
+  justify-content: center;
+  border: 5px solid rgb(128, 111, 0);
+  background-color: rgb(128, 111, 0);
+  color: white;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
